@@ -1,4 +1,4 @@
-const getString = prompt("please enter a number!!");
+const getString = prompt("please enter some character seperated by comma!!");
 let sepString = getString.split(",");
 let resultString;
 if (sepString.length <= 2) {
