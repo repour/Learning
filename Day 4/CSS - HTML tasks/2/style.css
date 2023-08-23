@@ -25,7 +25,7 @@ label{
     color: #1E0E62;
     font-weight: 600;
     position: relative;
-    left: -53px;
+    left: -47px;
 }
 .form-container, .form-sec>div{
     display: flex;
@@ -73,7 +73,7 @@ input{
     flex-grow: 0.75;
 }
 .card-num-sec>label{
-    left: -65px;
+    left: -56px;
 }
 .cvv-sec{
     width: 29%;
@@ -82,14 +82,14 @@ input{
     left: -49px;
 }
 .exp-cty-sec>div>label{
-    left: -59px;
+    left: -55px;
 }
 .purchase-button{
     padding: 0.75rem;
     margin: 2rem 0 3rem;
     background-color: #25DAC5;
     color: white;
-    width: 24rem;
+    width: 23.3rem;
     border: none;
     border-radius: 20px;
 }
