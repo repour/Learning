@@ -41,12 +41,15 @@ button{
 }
 h1{
     padding-right: 5rem;
-    font-size: 42px;
+    font-size: 36px;
+}
+h2{
+    font-size: 1.25rem;
 }
 
 .head-content{
     padding-right: 10rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: justify;
 }
 .img-sec{
@@ -74,7 +77,7 @@ h1{
     padding-right: 12rem;
 }
 .course-content, .course-content1{
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 
