@@ -1,7 +1,7 @@
 let continueOrNot = false;
 let arryFromStr = [];
 let givenStr;
-while (continueOrNot != true) {
+while (!continueOrNot) {
     givenStr = prompt("please enter your Number ,  and when it's finished enter 'quit'");
     if (givenStr == "quit") {
         continueOrNot = true;
