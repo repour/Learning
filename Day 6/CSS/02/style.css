@@ -23,6 +23,7 @@ h1{
 button{
     border: none;
     background-color: #F1F2F7;
+    font-family: "Vazirmatn";
 }
 .head-section , .site-info , .menu , .top-sec{
     display: flex;
