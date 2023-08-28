@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+body , html , p , span{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F2F7;
+    color: #505050;
+    font-family: "Vazirmatn";
+}
+ul {
+    list-style-type: none;
+}
+p{
+    text-align: justify;
+}
+h1{
+    font-size: 3rem;
+}
+button{
+    border: none;
+    background-color: #F1F2F7;
+}
+.head-section , .site-info , .menu , .top-sec{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.head-section{
+    position: relative;
+    padding: 0 2.5rem;
+}
+.top-sec{
+    padding: 0 2.5rem;
+}
+.logo-img{
+    width: 13%;
+    background-color: white;
+    border-radius: 100px;
+    padding: 4px;
+    margin-left: 10px;
+}
+.head-section{
+    margin-top: 15px;
+    margin-right: 6rem;
+}
+.menu{
+    margin-right: -8rem;
+}
+li{
+    margin: 0 2rem;
+    color: #505050;
+}
+.site-visit{
+    background-color: white;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 0.5rem;
+    position: absolute;
+    left: 9rem;
+    top: 0.5rem;
+}
+.left-top-sec , .right-top-sec{
+    width: 50%;
+    
+}
+.right-top-sec{
+    padding: 4rem 6rem;
+}
+
+.button-top-right{
+    margin-top: 2rem;
+}
+.right-button , .left-button{
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 8rem;
+    font-size: 16px;
+}
+.right-button{
+    background-color: #0049B7;
+    color: white;
+}
+.left-button{
+    background-color: #F1F2F7;
+    color: #0049B7;
+}
+.bottom-sec{
+    background-color: white;
+    padding: 2rem 6rem;
+}
+.container-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.content-bottom{
+    padding: 1rem 2.5rem;
+    grid-column: 2 span;
+}
+.back-white p , .back-grey p{
+    text-align: center;
+    background: none;
+    margin: 1rem 0;
+}
+.back-white{
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0rem 2rem;
+}
+.back-grey{
+    border-radius: 15px;
+    background-color: #F1F2F7;
+    margin: 0rem 2rem;
+}
+.back-grey span , .back-white span{
+    font-size: 3rem;
+    font-weight:600 ;
+    background: none;
+}
+.back-grey img , .back-white img{
+    width: 1.5rem;
+}
