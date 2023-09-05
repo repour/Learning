@@ -11,15 +11,40 @@
     justify-content: center;
     align-items: center;
 }
-img{
-    display: block;
-    width: 100%;
-}
+
 input , button{
-    display: block;
+    width: 100%;
+    height: 4rem;
+    padding: 2rem;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+}
+.google-logo{
+    background: white;
+    color: #000;
+}
+p{
+    font-size: 0.75rem;
+}
+a{
+    color: black;
+    opacity: 100%;
 }
 h1{
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 .right-wrapper , .left-wrapper{
     min-height: calc(100vh - 4rem);
@@ -31,5 +56,30 @@ h1{
     background-image: url(./assets/Rectangle\ 1.png);
     background-size: cover;
     border-radius: 25px;
-    padding: 4rem 3.4rem;
+    padding: 4rem 3.4rem 4rem;
+    position: relative;
+    color: #FFFFFF;
+}
+.left-wrapper{
+    text-align: center;
+}
+.form-sign-up{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+
+}
+#begining{
+    margin-top: 4rem;
+}
+.footer-img{
+    position: absolute;
+    bottom: 3rem;
+}
+.right-wrapper p{
+    font-size: 1.5rem;
+}
+input::placeholder{
+    color: black;
+    opacity: 40%;
 }
