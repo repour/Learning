@@ -2,7 +2,7 @@ let getStr = prompt("please enter your array , and seperate name with comma");
 let arryFromStr = getStr.split(",");
 
 function nameLikes(arry, str) {
-    if (!getStr) {
+    if (!str) {
         /////////////////// It's for empty result///////////////////
         console.log("Nobody likes this.");
     }else if(arry.length < 3){
