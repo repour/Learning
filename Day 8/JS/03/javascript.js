@@ -3,7 +3,7 @@ console.log("first array", getArry1);
 const getArry2 = prompt("please enter your second array , and seperate items with comma").split(",");
 console.log("Second array", getArry2);
 
-function returnNewArry(arry1, arry2) {
+function uniqueItemInArry(arry1, arry2) {
     //////////// in this section we can find items in first arry///////////////
     let firstResult = [...arry1];
     for (let j = 0; j < arry2.length; j++) {
@@ -19,4 +19,4 @@ function returnNewArry(arry1, arry2) {
     console.log("Result", finalResult);
 }
 
-returnNewArry(getArry1 , getArry2);
+uniqueItemInArry(getArry1 , getArry2);
