@@ -1,0 +1,10 @@
+button , input {
+  font-size: 2rem;
+  padding: 1rem;
+  width: 15rem;
+}
+.list-names{
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: blue;
+}
