@@ -1,29 +1,29 @@
 let getStr = prompt("please enter your array , and seperate name with comma");
 let arryFromStr = getStr.split(",");
 
-function nameLikes(arryFromStr) {
+function nameLikes(arry, str) {
     if (!getStr) {
         /////////////////// It's for empty result///////////////////
         console.log("Nobody likes this.");
-    }else if(arryFromStr.length < 3){
+    }else if(arry.length < 3){
         /////////////////// for one or two names///////////////////
-        switch (arryFromStr.length) {
+        switch (arry.length) {
             case 1:
-                console.log(`${arryFromStr[0]} likes this.`);
+                console.log(`${arry[0]} likes this.`);
                 break;
             default:
-                console.log(`${arryFromStr[0]} and ${arryFromStr[1]} likes this.`);
+                console.log(`${arry[0]} and ${arry[1]} likes this.`);
                 break;        
         }
     }else {
         /////////////////// And for more than two names///////////////////
         let names = "";
-        for (let i = 0; i < arryFromStr.length-1; i++) {
-            names = names + arryFromStr[i] + " , ";
+        for (let i = 0; i < arry.length-1; i++) {
+            names = names + arry[i] + " , ";
         }
         names.slice(0 , -2);
-        console.log(`${names}and ${arryFromStr[arryFromStr.length-1]} likes this.`);
+        console.log(`${names}and ${arry[arry.length-1]} likes this.`);
     }
     
 }
-nameLikes(arryFromStr);
+nameLikes(arryFromStr , getStr);
