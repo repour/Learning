@@ -12,7 +12,7 @@ function nameLikes(arry, str) {
                 console.log(`${arry[0]} likes this.`);
                 break;
             default:
-                console.log(`${arry[0]} and ${arry[1]} likes this.`);
+                console.log(`${arry[0]} and ${arry[1]} like this.`);
                 break;        
         }
     }else {
@@ -22,7 +22,7 @@ function nameLikes(arry, str) {
             names = names + arry[i] + " , ";
         }
         names.slice(0 , -2);
-        console.log(`${names}and ${arry[arry.length-1]} likes this.`);
+        console.log(`${names}and ${arry[arry.length-1]} like this.`);
     }
     
 }
